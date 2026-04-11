@@ -1,0 +1,5 @@
+head-drop:
+  enabled: true
+  chance: 100
+
+kills: {}

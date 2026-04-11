@@ -1,0 +1,8 @@
+name: DeathHeads
+version: 1.0
+main: me.deathHeads.DeathHeads
+api-version: 1.20
+
+commands:
+  topkills:
+    description: Affiche le top kills

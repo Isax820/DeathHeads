@@ -1,0 +1,6 @@
+me\deathHeads\listeners\KillListener.class
+me\deathHeads\managers\KillManager.class
+me\deathHeads\managers\HeadManager.class
+me\deathHeads\DeathHeads.class
+me\deathHeads\listeners\DeathListener.class
+me\deathHeads\commands\TopKillsCommand.class
