@@ -1,46 +1,48 @@
-# 💻 Plateformes
+# 💻 Platforms
 
 [![Purpur](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/supported/purpur_vector.svg)](https://purpurmc.org/)
 [![Spigot](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/supported/spigot_vector.svg)](https://www.spigotmc.org/)
-[![Paper](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/supported/paper_vector.svg)](https://papermc.io/downloads/paper)
+[ ![Paper](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/supported/paper_vector.svg)](https://papermc.io/downloads/paper)
 [![Bukkit](https://raw.githubusercontent.com/intergrav/devins-badges/v3/assets/cozy/supported/bukkit_vector.svg)](https://dev.bukkit.org/)
 
 ---
 
 # 💀 DeathHeads
 
-Un plugin Minecraft simple et fun où les joueurs laissent leur tête à leur mort et accumulent des kills !
+A simple and fun Minecraft plugin where players leave their heads behind when they die and rack up kills!
 
 ---
 
-## ⚡ Fonctionnalités
+## ⚡ Features
 
-- 💀 Drop de la tête du joueur à sa mort
-- 🧠 Collection des têtes par joueur
-- 🏆 Système de kills persistant
-- 📊 Commande /topkills
-- ⚙️ Configuration simple via config.yml
+- 💀 Player head drops upon death
+- 🧠 Player head collection
+- 🏆 Persistent kill system
+- 📊 /topkills command
+- ⚙️ Simple configuration via config.yml
 
 ---
 
-## 🧱 Commandes
+## 🧱 Commands
 
-| Commande | Description |
+| Command | Description |
+
 |----------|-------------|
-| /topkills | Affiche le classement des meilleurs joueurs |
+
+| /topkills | Displays the top player rankings |
 
 ---
 
-## 💡 Fonctionnement
+## 💡 How it Works
 
-### 💀 À la mort d'un joueur :
-- Sa tête est drop au sol
-- Elle est enregistrée dans sa collection
-- Le killer gagne +1 kill
+### 💀 When a player dies:
+- Their head is dropped to the ground
+- It is saved to their collection
+- The killer gains +1 kill
 
-### 🏆 Système de kills :
-- Les kills sont sauvegardés automatiquement
-- Persistants après restart du serveur
+### 🏆 Kill System:
+- Kills are saved automatically
+- Persistent after server restart
 
 ---
 
@@ -48,33 +50,35 @@ Un plugin Minecraft simple et fun où les joueurs laissent leur tête à leur mo
 
 ```yml
 head-drop:
-  enabled: true
-  chance: 100
+
+enabled: true
+chance: 100
 
 kills:
-  enabled: true
+
+enabled: true
 ```
 
 ## 📦 Installation
-1. Télécharge le plugin `.jar`
-2. Place-le dans le dossier `plugins/`
-3. Redémarre ton serveur
-4. Configure `config.yml` si besoin
+1. Download the `.jar` plugin
+2. Place it in the `plugins/` folder
+3. Restart your server
+4. Configure `config.yml` if needed
 
 ## 🛠️ Permissions
-Aucune permission requise pour la version actuelle
+No permissions required for the current version
 
-## 🚀 Compatibilité
+## 🚀 Compatibility
 - PaperMC ✔
 - Spigot ✔
-- Minecraft 1.20+ ✔
+- Minecraft 1.21.11+ ✔
 
-## 📌 À venir
-- 💰 Économie (vente de têtes)
-- 🏆 GUI TopKills
-- 💀 GUI collection de têtes
-- ⚡ Kill streaks
-- 💾 Base de données SQLite / MySQL
+## 📌 Coming Soon
+- 💰 Economy (Head Sales)
+- 🏆 TopKills GUI
+- 💀 Head Collection GUI
+- ⚡ Kill Streaks
+- 💾 SQLite/MySQL Database
 
-## ❤️ Auteur
-Plugin développé pour serveurs survie / PvP personnalisés.
+## ❤️ Author
+Plugin developed for custom survival/PvP servers.
